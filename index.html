@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Merch Canvas</title>
+    <meta
+      name="description"
+      content="MerchCanvas: Virtual 3D t-shirt design experimentation platform. Try logos, sizes, and textures before printing. Refine your design without real t-shirts."
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
@@ -13,6 +17,25 @@
     <script src="/script/tailwind.config.js" defer></script>
   </head>
   <body>
-    <h1 class="text-3xl font-b">Hello world!</h1>
+    <div
+      class="flex w-full px-[5%] bg-[#dbdbd9] items-center justify-between min-h-[100vh]"
+    >
+      <div class="flex w-[50%] flex-col gap-8">
+        <h2 class="font-b text-[80px] leading-[80%] select-none">
+          MERCH<br />CANVAS
+        </h2>
+        <p class="leading-[150%] font-r text-[16px]">
+          Explore designs virtually on 3D t-shirts before printing. Experiment
+          with logo placement, sizes, and textures. Perfect your design without
+          committing to physical t-shirts.
+        </p>
+        <a href="https://merchcanvas.prajwolneupane.com.np/"
+          ><button class="bg-black text-gray-200 w-[200px] py-2 rounded-sm">
+            Try Now
+          </button></a
+        >
+      </div>
+      <img src="/image/header_image.png" />
+    </div>
   </body>
 </html>
